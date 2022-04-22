@@ -10,6 +10,7 @@ db:
         schemas:
             - firstdb
             - seconddb
+            - maindb
         endpoints:
             first:
                 default_schema: firstdb
@@ -20,7 +21,7 @@ db:
                 privileges:
                     seconddb: admin
             main:
-                default_schema: seconddb
+                default_schema: maindb
                 privileges:
                     seconddb: admin
 
