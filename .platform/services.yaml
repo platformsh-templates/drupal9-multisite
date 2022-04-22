@@ -19,6 +19,11 @@ db:
                 default_schema: seconddb
                 privileges:
                     seconddb: admin
+            main:
+                default_schema: seconddb
+                privileges:
+                    seconddb: admin
+
 
 cache:
     type: redis:6.0
