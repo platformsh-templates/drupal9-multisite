@@ -33,7 +33,7 @@ if ($platformsh->hasRelationship($platformsh_subsite_id)) {
 // on development but not production.
 if (isset($platformsh->branch)) {
   // Production type environment.
-  if ($platformsh->branch == 'master' || $platformsh->onDedicated()) {
+  if ($platformsh->onProduction() || $platformsh->onDedicated()) {
     $config['system.logging']['error_level'] = 'hide';
   } // Development type environment.
   else {
