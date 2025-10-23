@@ -1,9 +1,10 @@
+> [!WARNING]
+> **This repository is no longer maintained by our internal teams.**  
+> The template is provided *as is* and will not receive updates, bug fixes, or new features.  
+> You are welcome to contribute on it or fork the repository and modify it for your own use.
+> To deploy this template on [Upsun](https://www.upsun.com), you can use the [ConvSun](https://github.com/upsun/convsun)
+> tool to convert an existing `.platform.app.yaml` configuration file to the [Upsun Flex format](https://docs.upsun.com/create-apps/app-reference/single-runtime-image.html).
 
-<p align="right">
-<a href="https://platform.sh">
-<img src="https://platform.sh/logos/redesign/Platformsh_logo_black.svg" width="150px">
-</a>
-</p>
 
 <p align="center">
 <a href="https://www.drupal.org/">
@@ -34,11 +35,7 @@
 </a>&nbsp&nbsp
 <a href="https://github.com/platformsh-templates/drupal9-multisite/blob/master/LICENSE">
 <img src="https://img.shields.io/static/v1?label=License&message=MIT&style=for-the-badge&labelColor=f4f2f3&color=ffd9d9" alt="License" />
-</a>&nbsp&nbsp
-<br /><br />
-https://raw.githubusercontent.com/platformsh/template-builder/master/templates/drupal9/.platform.template.yaml
-<a href="https://console.platform.sh/projects/create-project/?template=https://raw.githubusercontent.com/platformsh/template-builder/master/templates/drupal9-multisite/.platform.template.yaml&utm_campaign=deploy_on_platform?utm_medium=button&utm_source=affiliate_links&utm_content=https://raw.githubusercontent.com/platformsh-templates/drupal9-multisite/updates/.platform.template.yaml" target="_blank" title="Deploy with Platform.sh"><img src="https://platform.sh/images/deploy/deploy-button-lg-blue.svg" width="175px"></a>
-</p>
+</a>
 </p>
 
 <hr>
@@ -85,15 +82,6 @@ Drupal is a flexible and extensible PHP-based CMS framework capable of hosting m
 
 The quickest way to deploy this template on Platform.sh is by clicking the button below. 
 This will automatically create a new project and initialize the repository for you.
-
-<p align="center">
-    <a href="https://console.platform.sh/projects/create-project?template=https://raw.githubusercontent.com/platformsh/template-builder/master/templates/drupal9-multisite/.platform.template.yaml&utm_content=drupal9-multisite&utm_source=github&utm_medium=button&utm_campaign=deploy_on_platform">
-        <img src="https://platform.sh/images/deploy/lg-blue.svg" alt="Deploy on Platform.sh" width="170px" />
-    </a>
-</p>
-<br/>
-
-
 
 You can also quickly recreate this project locally with the following command:
 
